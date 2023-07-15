@@ -3,16 +3,24 @@ body {
    font-family: "Space Mono", monospace;
 }
 .container {
-   width: 65%;
+   width: 80%;
    margin: auto;
+}
+img {
+   width: 100%;
+}
+h1 {
+   font-size: 50px;
 }
 
 /* Header */
 header {
    display: flex;
-   height: 15vh;
    flex-direction: column;
    justify-content: center;
+}
+header p {
+   font-size: 20px;
 }
 
 /* Hero section */
@@ -20,10 +28,7 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   height: 500px;
-}
-.right {
-   width: 45%;
+   height: 90vh;
 }
 .right button {
    background: #333;
@@ -41,7 +46,6 @@ header {
 
 /* Footer */
 footer {
-   height: 150px;
    align-items: end;
    display: flex;
 }

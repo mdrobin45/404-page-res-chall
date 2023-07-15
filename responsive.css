@@ -3,10 +3,22 @@
    header {
       align-items: inherit;
    }
+   .hero-section {
+      height: inherit;
+   }
+   h1 {
+      font-size: 32px;
+   }
+   .left img {
+      width: 100%;
+   }
    .container.hero-section {
       flex-direction: column;
    }
    .right {
       width: 100%;
+   }
+   footer {
+      height: 100px;
    }
 }
