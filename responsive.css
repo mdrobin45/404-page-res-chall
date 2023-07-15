@@ -1,4 +1,4 @@
-/* Breakpoint <=576px */
+/* Breakpoint <=768px */
 @media screen and (max-width: 768px) {
    header {
       align-items: inherit;

@@ -6,11 +6,21 @@ body {
    width: 65%;
    margin: auto;
 }
+
+/* Header */
+header {
+   display: flex;
+   height: 15vh;
+   flex-direction: column;
+   justify-content: center;
+}
+
+/* Hero section */
 .hero-section {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   height: 60vh;
+   height: 500px;
 }
 .right {
    width: 45%;
@@ -20,13 +30,6 @@ body {
    color: #fff;
    padding: 15px;
 }
-header {
-   display: flex;
-   height: 15vh;
-   align-items: center;
-   flex-direction: column;
-   justify-content: center;
-}
 .home-btn {
    background: #333;
    color: #fff;
@@ -34,4 +37,11 @@ header {
    padding: 12px;
    margin-top: 1rem;
    display: inline-block;
+}
+
+/* Footer */
+footer {
+   height: 150px;
+   align-items: end;
+   display: flex;
 }
